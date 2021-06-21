@@ -56,7 +56,7 @@
     <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
-<h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
+<h2>最接近匹配： <span class="weight-300" id="ideology-label"></span></h2>
 <p>这是一项不断完善的工作，所谓的测试可能非常不准确，所以不要太当真。</p>
 <p>如果您不喜欢您指定的意识形态，请在GitHub讨论或创建Issues。谢谢！</p>
 <hr/>
@@ -90,10 +90,10 @@ stats"></a></div></noscript>
         }
     }
 
-    econArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
-    diplArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
-    govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
-    sctyArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+    econArray = ["共产主义","社会主义","社会派","中间派","市场派","资本主义","无干涉主义"]
+    diplArray = ["世界主义","国际主义","和平主义","均衡","爱国主义","民族主义","沙文主义"]
+    govtArray = ["安那其主义","自由主义","自由派","温和派","国家主义","专制主义","极权主义"]
+    sctyArray = ["革命","激进","进步","中性","传统","保守","反对社会变革"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -218,13 +218,13 @@ stats"></a></div></noscript>
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
 
         ctx.font="300 30px Montserrat"
-        ctx.fillText("8values.github.io", 780, 60)
+        ctx.fillText("songyon.github.io/8valuescn", 780, 60)
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
-        ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
-        ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
-        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
-        ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
+        ctx.fillText("经济：" + document.getElementById("economic-label").innerHTML, 400, 175)
+        ctx.fillText("外交：" + document.getElementById("diplomatic-label").innerHTML, 400, 295)
+        ctx.fillText("民事：" + document.getElementById("state-label").innerHTML, 400, 415)
+        ctx.fillText("社会：" + document.getElementById("society-label").innerHTML, 400, 535)
 
         document.getElementById("banner").src = c.toDataURL();
     }
