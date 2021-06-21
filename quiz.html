@@ -1,7 +1,7 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>8values Quiz</title>
+<title>8valuesCN问题</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
@@ -12,34 +12,32 @@
     enable_page_level_ads: true
   });
 </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5CTBKRVD08"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5CTBKRVD08');
+</script>
 </head>
 <body>
 <script type="application/javascript"
         src="questions.js">
 </script>
-<h1>8values</h1>
+<h1>8valuesCN</h1>
 <hr>
-<h2 style="text-align:center;" id="question-number">Loading...</h2>
+<h2 style="text-align:center;" id="question-number">加载中</h2>
 <p class="question" id="question-text"></p>
-<button class="button stronglyAgree" onclick="next_question( 1.0)">Strongly Agree</button> <br>
-<button class="button agree" onclick="next_question( 0.5)">Agree</button> <br>
-<button class="button neutral" onclick="next_question( 0.0)">Neutral/Unsure</button> <br>
-<button class="button disagree" onclick="next_question(-0.5)">Disagree</button> <br>
-<button class="button stronglyDisagree" onclick="next_question(-1.0)">Strongly Disagree</button> <br>
-<button class="small_button" onclick="prev_question()" id="back_button">Back</button>
-<button class="small_button_off" id="back_button_off">Back</button><br>
+<button class="button stronglyAgree" onclick="next_question( 1.0)">非常同意</button> <br>
+<button class="button agree" onclick="next_question( 0.5)">同意</button> <br>
+<button class="button neutral" onclick="next_question( 0.0)">中立/不确定</button> <br>
+<button class="button disagree" onclick="next_question(-0.5)">不同意</button> <br>
+<button class="button stronglyDisagree" onclick="next_question(-1.0)">非常不同意</button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button">上一个</button>
+<button class="small_button_off" id="back_button_off">上一个</button><br>
 
-<!-- Website visit statistics - no personal information is collected! -->
-<script type="text/javascript">
-var sc_project=11325211;
-var sc_invisible=1;
-var sc_security="fd9f0659";
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
 <noscript><div class="statcounter"><a title="web stats"
 href="http://statcounter.com/" target="_blank"><img
 class="statcounter"
