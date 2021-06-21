@@ -216,7 +216,7 @@ questions = [
         }
     },
     {
-        "question": "我们的民族非常伟大",
+        "question": "我们的民族非常伟大。",
         "effect": {
             "econ": 0,
             "dipl": -10,
