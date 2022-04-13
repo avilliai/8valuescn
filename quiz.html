@@ -1,14 +1,14 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>8valuesCN问题</title>
+<title>8values问题</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-6511426299019766",
+    google_ad_client: "ca-pub-45340418289011776",
     enable_page_level_ads: true
   });
 </script>
@@ -22,19 +22,12 @@
   gtag('config', 'G-5CTBKRVD08');
 </script>
 <!-- Clarity tracking code for https://songyon.github.io/8valuescn/ -->
-<script>
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "78f84hk0iw");
-</script>
 </head>
 <body>
 <script type="application/javascript"
         src="questions.js">
 </script>
-<h1>8valuesCN</h1>
+<h1>8values中文版</h1>
 <hr>
 <h2 style="text-align:center;" id="question-number">加载中</h2>
 <p class="question" id="question-text"></p>
@@ -42,15 +35,10 @@
 <button class="button agree" onclick="next_question( 0.5)">同意</button> <br>
 <button class="button neutral" onclick="next_question( 0.0)">中立/不确定</button> <br>
 <button class="button disagree" onclick="next_question(-0.5)">不同意</button> <br>
-<button class="button stronglyDisagree" onclick="next_question(-1.0)">非常不同意</button> <br>
-<button class="small_button" onclick="prev_question()" id="back_button">上一个</button>
-<button class="small_button_off" id="back_button_off">上一个</button><br>
+<button class="button stronglyDisagree" onclick="next_question(-1.0)">强烈不同意</button> <br>
+<button class="small_button" onclick="prev_question()">上一个</button><br>
 
-<noscript><div class="statcounter"><a title="web stats"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
-stats"></a></div></noscript>
+
 
 <!-- JavaScript for the test itself -->
 <script>
@@ -70,7 +58,7 @@ stats"></a></div></noscript>
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
-        document.getElementById("question-number").innerHTML = "第 " + (qn + 1) + " 个，共 " + (questions.length) + "个。";
+        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
         if (qn == 0) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';

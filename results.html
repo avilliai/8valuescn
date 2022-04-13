@@ -1,12 +1,16 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>8valuesCN结果</title>
+<title>8values结果</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
 <script>
   version = "Test Edition #1" //Remember to update this before making changes to the test itself!
+</script>
+</head>
+<script type="application/javascript"
+        src="ideologies.js">
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5CTBKRVD08"></script>
@@ -18,64 +22,47 @@
   gtag('config', 'G-5CTBKRVD08');
 </script>
 <!-- Clarity tracking code for https://songyon.github.io/8valuescn/ -->
-<script>
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "78f84hk0iw");
-</script>
-</head>
-<script type="application/javascript"
-        src="ideologies.js">
-</script>
-
 <body>
-<h1>8valuesCN</h1>
+<h1>8values</h1>
 <hr>
 
 <h1>结果</h1>
 
-<h2>经济： <span class="weight-300" id="economic-label"></span></h2>
+<h2>经济：<span class="weight-300" id="economic-label"></span></h2>
 <div class="axis">
     <img id="img-equality" src="value_images/equality.svg" height="128pt"/>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
     <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
-    <img id="img-wealth" src="value_images/wealth.svg" height="128pt"/>
+    <img id="img-wealth" src="value_images/markets.svg" height="128pt"/>
 </div>
-<h2>外交： <span class="weight-300" id="diplomatic-label"></span></h2>
+<h2>外交：<span class="weight-300" id="diplomatic-label"></span></h2>
 <div class="axis">
-    <img id="img-might" src="value_images/might.svg" height="128pt"/>
+    <img id="img-might" src="value_images/nation.svg" height="128pt"/>
     <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
     <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
-    <img id="img-peace" src="value_images/peace.svg" height="128pt"/>
+    <img id="img-peace" src="value_images/globe.svg" height="128pt"/>
 </div>
-<h2>民事： <span class="weight-300" id="state-label"></span></h2>
+<h2>民事：<span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
     <img id="img-liberty" src="value_images/liberty.svg" height="128pt"/>
     <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
     <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
     <img id="img-authority" src="value_images/authority.svg" height="128pt"/>
 </div>
-<h2>社会： <span class="weight-300" id="society-label"></span></h2>
+<h2>社会：<span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
     <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
     <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
     <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
-<h2>最接近匹配： <span class="weight-300" id="ideology-label"></span></h2>
+<h2>最接近匹配：<span class="weight-300" id="ideology-label"></span></h2>
 <p>这是一项不断完善的工作，所谓的测试可能非常不准确，所以不要太当真。</p>
 <p>如果您不喜欢您指定的意识形态，请在GitHub讨论或创建Issues。谢谢！</p>
 <hr/>
 <img src="" id="banner">
 <button class="button" onclick="location.href='index.html';">返回</button> <br>
 
-<noscript><div class="statcounter"><a title="web stats"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
-stats"></a></div></noscript>
 <script>
     function getQueryVariable(variable)
     {
@@ -100,8 +87,8 @@ stats"></a></div></noscript>
 
     econArray = ["共产主义","社会主义","社会派","中间派","市场派","资本主义","无干涉主义"]
     diplArray = ["世界主义","国际主义","和平主义","均衡","爱国主义","民族主义","沙文主义"]
-    govtArray = ["安那其主义","自由主义","自由派","温和派","国家主义","专制主义","极权主义"]
-    sctyArray = ["革命","激进","进步","中性","传统","保守","反对社会变革"]
+    govtArray = ["安那其主义（无政府主义）","自由主义","自由派","温和派","国家主义","专制主义","极权主义"]
+    sctyArray = ["革命派","激进派","进步派","中立","传统派","保守派","反对社会变革"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
