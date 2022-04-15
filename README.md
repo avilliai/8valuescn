@@ -4,6 +4,10 @@
 
 本站已部署至Netlify、Vercel和Cloudflare，欢迎访问：[8ValuesCN（Netlify）](https://8valuescn.netlify.app/) [8ValuesCN（Vercel）](https://8valuescn.vercel.app/) [8ValuesCN（Cloudflare）](https://8valuescn.pages.dev/)
 
+由 Songyon 翻译。
+
+虽然我是翻译者，但是我觉得这个测试在夹带作者私货。如果测试出来感觉不对，请不要在意。
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/13bb7f2b-db22-4630-81fd-2c6420e50b20/deploy-status)](https://app.netlify.com/sites/8valuescn/deploys)
 
 # 2022年4月13日更新
