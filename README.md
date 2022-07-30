@@ -16,4 +16,4 @@
 
 # 2022年7月30更新
 
-新增 [隐私政策](https://github.com/Songyon/8valuescn/blob/master/8Values%20%E4%B8%AD%E6%96%87%E7%89%88%20%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96%EF%BC%88%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%EF%BC%89.md)
+新增 [隐私政策（中国大陆）](https://github.com/Songyon/8valuescn/blob/master/8Values%20%E4%B8%AD%E6%96%87%E7%89%88%20%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96%EF%BC%88%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%EF%BC%89.md)
