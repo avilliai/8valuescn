@@ -2,7 +2,7 @@
 
 8values-zh 政治测验衡量个人的政治价值观，包括平等、民族、自由、传统、市场、国际、威权和进步。
 
-本站已部署至Netlify、Vercel和Cloudflare，欢迎访问：[8ValuesCN（Netlify）](https://8valuescn.netlify.app/) [8ValuesCN（Vercel）](https://8valuescn.vercel.app/) [8ValuesCN（Cloudflare）](https://8valuescn.pages.dev/)
+本站已部署至Netlify、Vercel和Cloudflare，欢迎访问：[8Values-zh（Netlify）](https://8valuescn.netlify.app/) [8Values-zh（Vercel）](https://8valuescn.vercel.app/) [8Values-zh（Cloudflare）](https://8valuescn.pages.dev/)
 
 由 Songyon 翻译。此网站不代表译者立场。
 
