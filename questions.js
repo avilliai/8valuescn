@@ -81,6 +81,15 @@ questions = [
         }
     },
     {
+        "question": "良善社会的标准应当是",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
         "question": "企业的压迫比政府的压迫更令人担忧。",
         "effect": {
             "econ": 10,
